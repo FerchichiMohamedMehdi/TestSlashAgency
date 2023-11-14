@@ -1,7 +1,8 @@
-package com.example.entities;
+package com.example.testslashagency.entities;
 
 import lombok.*;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
@@ -10,6 +11,7 @@ import javax.persistence.Id;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
 public class Tache {
 
     @Id

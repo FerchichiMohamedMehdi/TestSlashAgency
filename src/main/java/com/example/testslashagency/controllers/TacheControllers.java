@@ -1,13 +1,13 @@
-package com.example.controllers;
+package com.example.testslashagency.controllers;
 
-import com.example.entities.Tache;
-import com.example.services.TacheService;
+import com.example.testslashagency.entities.Tache;
+import com.example.testslashagency.services.TacheService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/Tache")
 public class TacheControllers {

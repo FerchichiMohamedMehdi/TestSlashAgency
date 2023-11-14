@@ -1,6 +1,6 @@
-package com.example.repositories;
+package com.example.testslashagency.repositories;
 
-import com.example.entities.Tache;
+import com.example.testslashagency.entities.Tache;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TacheRepository extends JpaRepository<Tache, Long> {

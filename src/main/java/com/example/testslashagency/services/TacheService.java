@@ -1,7 +1,7 @@
-package com.example.services;
+package com.example.testslashagency.services;
 
-import com.example.entities.Tache;
-import com.example.repositories.TacheRepository;
+import com.example.testslashagency.entities.Tache;
+import com.example.testslashagency.repositories.TacheRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
