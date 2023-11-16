@@ -16,7 +16,7 @@ public class Tache {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private Long idTache;
     private String name;
     private Boolean terminee;
 
