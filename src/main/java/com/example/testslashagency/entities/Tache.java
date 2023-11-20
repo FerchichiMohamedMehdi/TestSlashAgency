@@ -17,8 +17,8 @@ public class Tache {
     @Id
     @GeneratedValue
     private Long idTache;
-    private String name;
-    private State state;
+    private String nom;
+    private Etat etat;
 
 
 

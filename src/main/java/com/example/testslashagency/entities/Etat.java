@@ -1,5 +1,5 @@
 package com.example.testslashagency.entities;
 
-public enum State {
-    En_cours, Terminee
+public enum Etat {
+    En_cours, Terminé
 }
