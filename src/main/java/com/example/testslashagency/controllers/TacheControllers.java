@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:8082")
 @RestController
 @RequestMapping("/Tache")
 public class TacheControllers {
@@ -24,7 +24,7 @@ public class TacheControllers {
         public void deleteTache(@PathVariable("idTache")Long idTache){
             tacheService.deleteTache(idTache);
         }
-        @CrossOrigin(origins = "*")
+
         @GetMapping("/listAll")
         public List<Tache> listAllTache(){
             return tacheService.getAllTaches();
