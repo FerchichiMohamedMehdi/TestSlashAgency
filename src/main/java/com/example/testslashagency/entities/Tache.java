@@ -18,7 +18,7 @@ public class Tache {
     @GeneratedValue
     private Long idTache;
     private String name;
-    private Boolean state;
+    private State state;
 
 
 
