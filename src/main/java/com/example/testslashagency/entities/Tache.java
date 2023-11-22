@@ -13,14 +13,9 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @Entity
 public class Tache {
-
     @Id
     @GeneratedValue
-    private Long idTache;
+    private Long id;
     private String nom;
     private Etat etat;
-
-
-
-
 }

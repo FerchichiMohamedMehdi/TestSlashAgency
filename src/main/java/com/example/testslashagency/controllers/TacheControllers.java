@@ -20,8 +20,8 @@ public class TacheControllers {
         public void addOrUpdateTache (@RequestBody Tache tache){
             tacheService.addOrUpdateTache(tache);
         }
-        @DeleteMapping("/delete/{idTache}")
-        public void deleteTache(@PathVariable("idTache")Long idTache){
+        @DeleteMapping("/delete/{id}")
+        public void delete(@PathVariable("id")Long idTache){
             tacheService.deleteTache(idTache);
         }
 
@@ -29,4 +29,8 @@ public class TacheControllers {
         public List<Tache> listAllTache(){
             return tacheService.getAllTaches();
         }
+
+
+
+
 }
