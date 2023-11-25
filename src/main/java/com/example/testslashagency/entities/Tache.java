@@ -18,4 +18,9 @@ public class Tache {
     private Long id;
     private String nom;
     private Etat etat;
+
+    public Tache(String nom, Etat etat) {
+        this.nom = nom;
+        this.etat = etat;
+    }
 }
