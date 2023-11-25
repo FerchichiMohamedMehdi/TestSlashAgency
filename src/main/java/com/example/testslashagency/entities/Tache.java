@@ -19,8 +19,3 @@ public class Tache {
     private String nom;
     private Etat etat;
 
-    public Tache(String nom, Etat etat) {
-        this.nom = nom;
-        this.etat = etat;
-    }
-}
